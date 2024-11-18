@@ -117,12 +117,7 @@ const App = () => {
       setIsMesssage(true);
       setMessage("Your login session has expired.");
     }
-    if (type === "cookie-issue") {
-      setIsMesssage(true);
-      setMessage(
-        "Cookies are not enabled in your browser. Please enable them to access your profile."
-      );
-    }
+    
   };
 
   const loginHandler = (value) => {
